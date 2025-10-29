@@ -156,8 +156,8 @@ I use **Python virtual environments**, **Docker**, and **GitHub Actions** to str
 
 ## Contact
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
-- LinkedIn: [www.linkedin.com/in/bruno-fulia-0b863924b]([https://www.linkedin.com/in/bruno-fulia-0b863924b)
-- Malt: [www.malt.fr/profile/bfu](https://www.malt.fr/profile/bfu)
-- Portfolio Website: [brunofulia.netlify.app](https://brunofulia.netlify.app)  
+- LinkedIn: <a href="https://www.linkedin.com/in/bruno-fulia-0b863924b" target="_blank">www.linkedin.com/in/bruno-fulia-0b863924b</a>
+- Malt: <a href="https://www.malt.fr/profile/bfu" target="_blank">www.malt.fr/profile/bfu</a>
+- Portfolio Website: <a href="https://brunofulia.netlify.app" target="_blank">brunofulia.netlify.app</a>
 
 *Let’s build better, smarter, and more reliable software together.*
