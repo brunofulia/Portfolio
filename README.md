@@ -6,7 +6,6 @@
 - [CV](#cv)  
 - [Skills](#skills)  
 - [Tools](#tools)  
-- [Project Setup & Workflow Optimization](#project-setup--workflow-optimization)  
 - [Examples of My Work](#examples-of-my-work)  
 - [Useful Resources](#useful-resources)  
 - [Education](#education)  
@@ -77,19 +76,6 @@ You can view my CV on my [personal website](https://brunofulia.netlify.app).
 | **Mobile Testing Tools**    | Android, ADB, ScrCpy, AHK                                         |
 | **Documentation**           | Confluence, Notion, ClickUp, Obsidian                             |
 
-
----
-
-##  Project Setup & Workflow Optimization
-
-I use **Python virtual environments**, **Docker**, and **GitHub Actions** to streamline QA automation.  
-
- **Workflow includes:**  
-- `requirements.txt` for dependencies  
-- `README.md` templates for documentation  
-- GitHub Projects & Issues for agile tracking  
-- Modular automation scripts with reusable fixtures  
-- VirtualBox for cross-platform test environments  
 
 ---
 
