@@ -6,7 +6,7 @@
 - [CV](#cv)  
 - [Skills](#skills)  
 - [Tools](#tools)  
-- [Project Setup & Workflow Optimization](#project-setup-workflow-optimization)  
+- [Project Setup & Workflow Optimization](#project-setup--workflow-optimization)  
 - [Examples of My Work](#examples-of-my-work)  
 - [Useful Resources](#useful-resources)  
 - [Education](#education)  
