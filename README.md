@@ -21,7 +21,7 @@ I’ve worked on **AI & IoT**, **ERP**, and **LMS** projects — including **QA 
 
 My work combines **technical expertise**, **analytical precision**, and a strong focus on **AI reliability**, **test automation**, and **quality improvement**.
 
-I’m fluent in **Spanish**, **English**, **French**, and **Italian**, and I’m open to **freelance, , or full-time QA roles worldwide**, focusing on **functional testing**, **test automation**, and **AI model validation**.
+I’m fluent in **Spanish**, **English**, **French**, and **Italian**, and I’m open to **freelance or full-time QA roles worldwide**, focusing on **functional testing**, **test automation**, and **AI model validation**.
 
 ---
 
