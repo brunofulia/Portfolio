@@ -144,7 +144,7 @@ I use **Python virtual environments**, **Docker**, and **GitHub Actions** to str
 ## 📬 Contact
 - 📧 Email: [brunofulia@gmail.com]  
 - 💼 LinkedIn: [https://www.linkedin.com/in/bruno-fulia-0b863924b]
-- 🧪 Malt: [https://www.malt.fr/profile/bfu]  
+- 🧪 Malt: [www.malt.fr/profile/bfu](https://www.malt.fr/profile/bfu)
 - 🌐 Portfolio Website: [brunofulia.netlify.app](https://brunofulia.netlify.app)  
 
 > *Let’s build better, smarter, and more reliable software together.*
