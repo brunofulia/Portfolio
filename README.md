@@ -46,7 +46,7 @@ You can view my CV on my [personal website](https://brunofulia.netlify.app).
 - Test case design and execution with assertions and validation  
 
 ### Automation Testing
-- **Robot Framework**, **Selenium WebDriver**, **Cypress**, **Cucumber**, **KarateDSL**  
+- **Robot Framework**, **Selenium WebDriver**, **Playwright**, **Cypress**, **Cucumber**, **KarateDSL**  
 - Integrated with **GitHub Actions**, **Docker**, and CI/CD pipelines  
 
 ### AI & Model Validation
@@ -65,16 +65,16 @@ You can view my CV on my [personal website](https://brunofulia.netlify.app).
 
 ## Tools
 
-| Category                    | Tools                                                             |
-| --------------------------- | ----------------------------------------------------------------- |
-| **Test Management**         | JIRA, Xray                                                        |
-| **Automation**              | Selenium WebDriver, Robot Framework, Cypress, Cucumber, KarateDSL |
-| **API Testing**             | Postman, Insomnia, Bruno                                          |
-| **Development & Scripting** | Python, Java, PHP, JavaScript, HTML, CSS, SQL                     |
-| **Version Control**         | Git, GitHub Workflows                                             |
-| **Environments & CI/CD**    | Docker, VirtualBox, Python Virtualenv, GitHub Actions             |
-| **Mobile Testing Tools**    | Android, ADB, ScrCpy, AHK                                         |
-| **Documentation**           | Confluence, Notion, ClickUp, Obsidian                             |
+| Category                    | Tools                                                                         |
+| --------------------------- | ----------------------------------------------------------------------------- |
+| **Test Management**         | JIRA, Xray                                                                    |
+| **Automation**              | Selenium WebDriver, Robot Framework, Playwright, Cypress, Cucumber, KarateDSL |
+| **API Testing**             | Postman, Insomnia, Bruno                                                      |
+| **Development & Scripting** | Python, Java, PHP, JavaScript, HTML, CSS, SQL                                 |
+| **Version Control**         | Git, GitHub Workflows                                                         |
+| **Environments & CI/CD**    | Docker, VirtualBox, Python Virtualenv, GitHub Actions                         |
+| **Mobile Testing Tools**    | Android, ADB, ScrCpy, AHK                                                     |
+| **Documentation**           | Confluence, Notion, ClickUp, Obsidian                                         |
 
 
 ---
