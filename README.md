@@ -16,7 +16,7 @@
 
 ## About Me
 
-I’m **Bruno Fulia**, an **ISTQB-certified QA Tester** with over **3 years of experience** in **functional, automated, and AI-based testing**.  
+I’m **Bruno Fulia**, an **ISTQB-certified QA Tester** with experience in **functional, automated, and AI-based testing**.  
 I’ve worked on **AI & IoT**, **ERP**, and **LMS** projects — including **QA validation for Samsung Electronics** (Galaxy AI, Bixby, SmartThings).  
 
 My work combines **technical expertise**, **analytical precision**, and a strong focus on **AI reliability**, **test automation**, and **quality improvement**.
