@@ -95,7 +95,7 @@ You can view my CV on my [personal website](https://brunofulia.netlify.app).
 - Automation frameworks: **Robot Framework**, **Cypress**, **Selenium**, **KarateDSL**  
 - REST API and AI output validation across multilingual environments 
 - Examples:
-	- [Qa Testing Practice Site](https://qa-playground.netlify.app/)
+	- [QA Testing Practice Site](https://qa-playground.netlify.app/)
 	- [Selenium Test Cases](./automation/selenium/)  
 	- [Robot Framework Test Cases](./automation/robotframework/)  
 	- [Cypress – Tests Cases](./automation/cypress/) 
