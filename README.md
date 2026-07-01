@@ -135,7 +135,7 @@ Python · PyTest · Promptfoo · Garak · FastAPI
 - Detects unsafe model outputs.
 - Converts AI behavior deviations into visible test failures.
 
-🔗 Repository: Add your URL
+🔗 Repository: [Link](https://github.com/brunofulia/LLM_Quality_And_Security_Framework)
 
 ---
 
