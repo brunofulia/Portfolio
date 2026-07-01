@@ -143,6 +143,5 @@ Python · PyTest · Promptfoo · Garak · FastAPI
 
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
 - LinkedIn: linkedin.com/in/bruno-fulia
-- GitHub: github.com/your-username
 
 
