@@ -1,150 +1,137 @@
-# Portfolio - Bruno Fulia
+# Bruno Fulia - QA Engineer
 
-## Table of Contents
+## ISTQB Certified | Web · Mobile · API · AI Platform Validation
 
-- [About Me](#about-me)
-- [CV](#cv)  
-- [Skills](#skills)  
-- [Tools](#tools)  
-- [Examples of My Work](#examples-of-my-work)  
-- [Useful Resources](#useful-resources)  
-- [Education](#education)  
-- [Languages](#languages)  
-- [Contact](#contact)  
+QA Engineer focused on validating complex software ecosystems across Web, Mobile, APIs, and AI-powered platforms.
+
+With a background combining Web Development and Business Law, I approach Quality Assurance from two perspectives: software reliability and risk-based analysis. I design automation frameworks, quality gates, and testing strategies that help teams detect functional, security, and compliance risks before production.
+
+My focus is building practical QA solutions that connect engineering practices with real-world product requirements, including accessibility, API reliability, security validation, and AI system behavior.
 
 ---
 
-## About Me
+## 🛠️ Technical Ecosystem
 
-I’m **Bruno Fulia**, an **ISTQB-certified QA Tester** with experience in **functional, automated, and AI-based testing**.  
-I’ve worked on **AI & IoT**, **ERP**, and **LMS** projects — including **QA validation for Samsung Electronics** (Galaxy AI, Bixby, SmartThings).  
-
-My work combines **technical expertise**, **analytical precision**, and a strong focus on **AI reliability**, **test automation**, and **quality improvement**.
-
-I’m fluent in **Spanish**, **English**, **French**, and **Italian**, and I’m open to **freelance or full-time QA roles worldwide**, focusing on **functional testing**, **test automation**, and **AI model validation**.
-
----
-
-## CV
-
-You can view my CV on my [personal website](https://brunofulia.netlify.app).
+| Domain | Core Technologies, Libraries & Environments |
+| --- | --- |
+| **Test Automation** | Playwright, Robot Framework, Selenium WebDriver, Cucumber (BDD) |
+| **API & Backend Validation** | Postman, Insomnia, Bruno, Karate DSL, SQL |
+| **Mobile Testing** | Appium, Android Debug Bridge (ADB), Scrcpy, Logcat |
+| **Languages & Scripting** | TypeScript, Python, JavaScript, Java, PHP, HTML, CSS |
+| **CI/CD & DevOps** | GitHub Actions, Docker, VirtualBox, Linux Shell |
+| **Quality Management** | Jira, Xray, Confluence, Notion, ClickUp, Obsidian |
 
 ---
 
-## Skills
+# 📂 Featured Quality & Automation Frameworks
 
-### Manual Testing
-- Web, mobile, and IoT functional and usability testing  
-- Regression, exploratory, and accessibility testing  
+My portfolio focuses on **controlled failure validation**: frameworks designed not only to verify expected behavior, but also to detect, capture, and report critical deviations through explicit quality gates.
 
-### Test Analysis & Design
-- Equivalence partitioning, boundary value analysis, state transition, decision tables  
-- Traceability matrices, test cases, and risk-based strategies  
+Each project demonstrates how automated testing can transform failures into actionable engineering signals through logs, traces, screenshots, and diagnostic artifacts.
 
-### API Testing
-- REST API testing with **Postman** and **KarateDSL**  
-- Test case design and execution with assertions and validation  
-
-### Automation Testing
-- **Robot Framework**, **Selenium WebDriver**, **Playwright**, **Cypress**, **Cucumber**, **KarateDSL**  
-- Integrated with **GitHub Actions**, **Docker**, and CI/CD pipelines  
-
-### AI & Model Validation
-- Detect hallucinations, bias, and inconsistencies in AI/LLM outputs  
-- Validate reliability for voice assistants and smart devices  
-
-### QA Documentation
-- Test plans, test strategies, bug reports following ISTQB standards  
-- Issue tracking with **JIRA/Xray** and agile collaboration  
-
-### Development & Scripting
-- Python, Java, PHP, JavaScript, HTML, CSS, SQL  
-- Mobile testing with **Android/ADB**
+```mermaid
+graph LR
+    A[CI/CD Execution] --> B{Quality Gate Verification}
+    B -->|Passed| C[Stable Release]
+    B -->|Issue Detected| D[Controlled Failure State]
+    D -->|Logs / Traces / Screenshots| E[Blocked Release]
+````
 
 ---
 
-## Tools
+## 📄 1. Web Compliance & Accessibility QA Framework
 
-| Category                    | Tools                                                                         |
-| --------------------------- | ----------------------------------------------------------------------------- |
-| **Test Management**         | JIRA, Xray                                                                    |
-| **Automation**              | Selenium WebDriver, Robot Framework, Playwright, Cypress, Cucumber, KarateDSL |
-| **API Testing**             | Postman, Insomnia, Bruno                                                      |
-| **Development & Scripting** | Python, Java, PHP, JavaScript, HTML, CSS, SQL                                 |
-| **Version Control**         | Git, GitHub Workflows                                                         |
-| **Environments & CI/CD**    | Docker, VirtualBox, Python Virtualenv, GitHub Actions                         |
-| **Mobile Testing Tools**    | Android, ADB, ScrCpy, AHK                                                     |
-| **Documentation**           | Confluence, Notion, ClickUp, Obsidian                                         |
+Automated regression framework focused on validating user interfaces, accessibility requirements, and browser-level behaviors.
 
+**Stack**
 
----
+TypeScript · Playwright · axe-core · Node.js
 
-## Examples of My Work
+**Architecture**
 
-### Test Strategies & Plans
-- Comprehensive **test strategies** aligned with project objectives  
-- Detailed **test plans** defining scope, approach, resources, and exit criteria 
-- Risk-based, functional, and exploratory testing applied for full coverage 
-- Examples:
-	- [ERP Project – Test Strategy](./examples/erp-test-strategy.md)  
-	- [LMS Platform – Test Plan](./examples/lms-test-plan.md)  
-	- [AI Model Validation – Strategy Document](./examples/ai-model-validation-strategy.md) 
+- Page Object Model with reusable components.
+- Custom fixtures for cleaner test execution.
+- Separation between test logic, UI models, and validation layers.
 
-### Functional & Automation Testing
-- Manual and automated testing for ERP, LMS, and AI-driven products  
-- Automation frameworks: **Robot Framework**, **Cypress**, **Selenium**, **KarateDSL**  
-- REST API and AI output validation across multilingual environments 
-- Examples:
-	- [QA Testing Practice Site](https://qa-playground.netlify.app/)
-	- [Selenium Test Cases](./automation/selenium/)  
-	- [Robot Framework Test Cases](./automation/robotframework/)  
-	- [Cypress – Tests Cases](./automation/cypress/) 
-	- [REST API Test Cases – Postman Collection](./api-tests/postman-collection.json)  
-	- [KarateDSL API Automation Scripts](./api-tests/karate/)  
-	- [Bruno API Test Examples](./api-tests/bruno/)  
+**Technical Scope**
 
-### Bug Reports & Issue Tracking
-- Detailed bug reports with reproduction steps, logs, and severity assessment  
-- Agile collaboration for prioritizing and validating fixes 
-- Examples:
-	- [ERP – Sample Bug Report](./bug-reports/erp-bug-report.md)  
-	- [LMS – Sample Bug Report](./bug-reports/lms-bug-report.md)  
-	- [AI Platform – Sample Issue Tracking](./bug-reports/ai-issue.md)  
+- WCAG 2.1 accessibility validation.
+- Browser context and dialog handling.
+- Regression coverage for complex web applications.
+
+**Controlled Failure Validation**
+
+- Executes invalid scenarios to confirm that quality gates detect regressions.
+- Captures traces, screenshots, network activity, and DOM information.
+
+🔗 Repository: Add your URL
 
 ---
 
-## Useful Resources
+## 📦 2. API & Data Privacy Contract Testing Framework
 
-- [ISTQB Glossary](https://glossary.istqb.org/en/search) – Official terminology reference  
-- [Ministry of Testing](https://www.ministryoftesting.com/) – Community, articles, and events  
-- [Test Automation University](https://testautomationu.applitools.com/) – Free courses on automation tools and strategies  
-- [Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html) – Official documentation  
-- [Selenium Documentation](https://www.selenium.dev/documentation/) – WebDriver and Grid setup  
-- [GitHub Docs](https://docs.github.com/en) – Version control best practices  
+Backend validation framework focused on API contracts, data exposure prevention, and authorization rules.
+
+**Stack**
+
+TypeScript · Playwright API · JSON Schema Validation
+
+**Architecture**
+
+- Modular API request layer.
+- Contract-based assertions.
+- Automated validation of expected backend behavior.
+
+**Technical Scope**
+
+- Response schema validation.
+- Sensitive data exposure checks.
+- RBAC authorization testing.
+- Privacy-oriented API validation.
+
+**Controlled Failure Validation**
+
+- Simulates unauthorized access scenarios.
+- Blocks execution when protected endpoints behave unexpectedly.
+
+🔗 Repository: Add your URL
 
 ---
 
-## Education
+## 🤖 3. AI Trust & Safety / LLM Validation Framework
 
-- **Software Tester – ISTQB Certification**, Docaposte, France, 2024  
-- **Web & Mobile Web Developer**, AFPA, France, 2023  
-- **Law Degree**, National University of La Plata, Buenos Aires, Argentina, 2002  
+Testing framework focused on evaluating AI behavior, prompt robustness, and safety boundaries.
+
+**Stack**
+
+Python · PyTest · Promptfoo · Garak · FastAPI
+
+**Architecture**
+
+- Provider-independent testing layer.
+- JSON-based adversarial datasets.
+- Automated AI behavior validation pipeline.
+
+**Technical Scope**
+
+- Prompt injection testing.
+- Jailbreak scenario evaluation.
+- Response safety checks.
+- AI reliability testing.
+
+**Controlled Failure Validation**
+
+- Detects unsafe model outputs.
+- Converts AI behavior deviations into visible test failures.
+
+🔗 Repository: Add your URL
 
 ---
 
-## Languages
+# 👥 Professional Connection
 
-- Spanish 🇪🇸 – Native  
-- English 🇬🇧 – Fluent  
-- French 🇫🇷 – Fluent  
-- Italian 🇮🇹 – Fluent  
-
----
-
-## Contact
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
-- LinkedIn: <a href="https://www.linkedin.com/in/bruno-fulia-0b863924b" target="_blank">www.linkedin.com/in/bruno-fulia-0b863924b</a>
-- Malt: <a href="https://www.malt.fr/profile/bfu" target="_blank">www.malt.fr/profile/bfu</a>
-- Portfolio Website: <a href="https://brunofulia.netlify.app" target="_blank">brunofulia.netlify.app</a>
+- LinkedIn: linkedin.com/in/bruno-fulia
+- GitHub: github.com/your-username
 
-*Let’s build better, smarter, and more reliable software together.*
+
