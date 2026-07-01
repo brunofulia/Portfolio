@@ -75,7 +75,7 @@ TypeScript · Playwright · axe-core · Node.js
 - Executes invalid scenarios to confirm that quality gates detect regressions.
 - Captures traces, screenshots, network activity, and DOM information.
 
-🔗 Repository: [Link](https://github.com/brunofulia/Web_Compliance_And_Accessibility)
+🔗 Repository: [Link](https://github.com/brunofulia/Web_Compliance_And_Accessibility#readme)
 
 ---
 
@@ -105,7 +105,7 @@ TypeScript · Playwright API · JSON Schema Validation
 - Simulates unauthorized access scenarios.
 - Blocks execution when protected endpoints behave unexpectedly.
 
-🔗 Repository: [Link](https://github.com/brunofulia/API_Data_Privacy_Contract_Testing)
+🔗 Repository: [Link](https://github.com/brunofulia/API_Data_Privacy_Contract_Testing#readme)
 
 ---
 
@@ -135,7 +135,7 @@ Python · PyTest · Promptfoo · Garak · FastAPI
 - Detects unsafe model outputs.
 - Converts AI behavior deviations into visible test failures.
 
-🔗 Repository: [Link](https://github.com/brunofulia/LLM_Quality_And_Security_Framework)
+🔗 Repository: [Link](https://github.com/brunofulia/LLM_Quality_And_Security_Framework#readme)
 
 ---
 
