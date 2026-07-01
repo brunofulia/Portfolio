@@ -105,7 +105,7 @@ TypeScript · Playwright API · JSON Schema Validation
 - Simulates unauthorized access scenarios.
 - Blocks execution when protected endpoints behave unexpectedly.
 
-🔗 Repository: Add your URL
+🔗 Repository: [Link](https://github.com/brunofulia/API_Data_Privacy_Contract_Testing)
 
 ---
 
