@@ -16,7 +16,7 @@ My focus is building practical QA solutions that connect engineering practices w
 - [Featured Quality & Automation Frameworks](#-featured-quality--automation-frameworks)
   - [1. Web Compliance & Accessibility QA Framework](#-1-web-compliance--accessibility-qa-framework)
   - [2. API & Data Privacy Contract Testing Framework](#-2-api--data-privacy-contract-testing-framework)
-  - [3. AI Trust & Safety / LLM Validation Framework](#-3-ai-trust--safety--llm-validation-framework)
+  - [3. LLM Quality & Security Framework](#-3-LLM-Quality-&-Security-framework)
 - [Professional Connection](#-professional-connection)
   
 ---
@@ -109,7 +109,7 @@ TypeScript · Playwright API · JSON Schema Validation
 
 ---
 
-## 🤖 3. AI Trust & Safety / LLM Validation Framework
+## 🤖 3. LLM Quality & Security Framework
 
 Testing framework focused on evaluating AI behavior, prompt robustness, and safety boundaries.
 
