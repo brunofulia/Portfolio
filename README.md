@@ -1,10 +1,3 @@
----
-title: "README"
-description: ""
-type: ""
-updated: "2026-07-27T14:59:05"
----
-
 # Bruno Fulia - QA Engineer
 
 ## ISTQB Certified | Web · Mobile · API · AI Platform Validation
