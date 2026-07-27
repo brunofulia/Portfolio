@@ -13,10 +13,11 @@ My focus is building practical QA solutions that connect engineering practices w
 ## 📑 Table of Contents
 
 - [Technical Ecosystem](#️-technical-ecosystem)
-- [Featured Quality & Automation Frameworks](#-featured-quality--automation-frameworks)
+- [Quality & Validation Frameworks](#-quality--validation-frameworks)
   - [1. Web Compliance & Accessibility QA Framework](#-1-web-compliance--accessibility-qa-framework)
   - [2. API & Data Privacy Contract Testing Framework](#-2-api--data-privacy-contract-testing-framework)
   - [3. LLM Quality & Security Framework](#-3-llm-quality--security-framework)
+- [AI-Augmented Workflows & Knowledge Systems](#-ai-augmented-workflows--knowledge-systems)
   - [4. AI - Auto Ignite · Plug & Work AI Context Kit](#️-4-ai---auto-ignite--plug--work-ai-context-kit)
 - [Professional Connection](#-professional-connection)
 
@@ -36,7 +37,7 @@ My focus is building practical QA solutions that connect engineering practices w
 
 ---
 
-## 📂 Featured Quality & Automation Frameworks
+## 📂 Quality & Validation Frameworks
 
 My portfolio focuses on **controlled failure validation**: frameworks designed not only to verify expected behavior, but also to detect, capture, and report critical deviations through explicit quality gates.
 
@@ -88,6 +89,78 @@ Enterprise-grade validation framework focused on evaluating AI behavior, prompt 
 🔗 **Repository:** [View Project](https://github.com/brunofulia/LLM_Quality_And_Security_Framework#readme)
 
 ---
+
+## 🧠 AI-Augmented Workflows & Knowledge Systems
+
+My approach to knowledge management and workflow augmentation focuses on structuring context deterministically so that AI models operate within rigid, predictable environments.
+
+```mermaid
+graph TD
+
+    %% =================================================
+    %% DETERMINISTIC GOVERNANCE LAYER
+    %% =================================================
+    subgraph DG["DETERMINISTIC GOVERNANCE LAYER"]
+
+        A[👤 User / IDE / AI Assistant]
+        B[AGENTS.md<br/>Universal Entry Point]
+
+        A --> B
+        B --> C[Session Initialization Ritual]
+        C --> D[Context Ingestion & Triage]
+
+        subgraph GE["Governance Engine"]
+            D --> E[Hierarchy • Policies<br/>Rules • Rituals]
+            E --> F{Consistency Validation}
+
+            F -->|Invalid State| G[Controlled KO State<br/>Execution Blocked]
+            F -->|Valid State| H[Context Assembly Engine]
+        end
+
+        subgraph MEM["Tiered Memory Architecture"]
+            M1[Active Memory<br/>Current State]
+            M2[Working Memory<br/>Session Context]
+            M3[Reference Memory<br/>Knowledge Archive]
+
+            M1 --> H
+            M2 --> H
+            M3 -.->|On Demand| H
+        end
+
+    end
+
+    %% =================================================
+    %% PROBABILISTIC AI LAYER
+    %% =================================================
+    subgraph AI_LAYER["PROBABILISTIC AI LAYER"]
+        H --> I[LLM Runtime<br/>Reasoning & Generation]
+    end
+
+    %% =================================================
+    %% DETERMINISTIC CONTINUITY LAYER
+    %% =================================================
+    subgraph CL["DETERMINISTIC CONTINUITY LAYER"]
+
+        I --> J[Governed Output]
+        J --> K[Closure Ritual]
+        K --> L[Memory Consolidation Engine]
+
+        L --> M[Update Active Memory]
+        L --> N[Persist Decisions & Lessons Learned]
+        L --> O[Clean Working Memory]
+
+    end
+
+    %% =================================================
+    %% STYLING
+    %% =================================================
+    style G fill:#f9cccc,stroke:#900,stroke-width:2px
+    style H fill:#ccccff,stroke:#333,stroke-width:2px
+    style I fill:#d9ead3,stroke:#333,stroke-width:2px
+    style DG fill:#f8f9fa,stroke:#ccc,stroke-dasharray: 5 5
+    style AI_LAYER fill:#f3f4f6,stroke:#ccc,stroke-dasharray: 5 5
+    style CL fill:#f8f9fa,stroke:#ccc,stroke-dasharray: 5 5
+```
 
 ### ⚙️ 4. AI - Auto Ignite · Plug & Work AI Context Kit
 
