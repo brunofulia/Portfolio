@@ -2,11 +2,9 @@
 
 ## ISTQB Certified | Web · Mobile · API · AI Platform Validation
 
-QA Engineer focused on validating complex software ecosystems across Web, Mobile, APIs, and AI-powered platforms.
+QA Engineer focused on validating complex software ecosystems across Web, Mobile, APIs, and AI-powered platforms. I design automation frameworks and quality gates that don't just verify expected behavior — they actively detect, capture, and escalate critical deviations before they reach production.
 
-With a background combining Web Development and Business Law, I approach Quality Assurance from two perspectives: software reliability and risk-based analysis. I design automation frameworks, quality gates, and testing strategies that help teams detect functional, security, and compliance risks before production.
-
-My focus is building practical QA solutions that connect engineering practices with real-world product requirements, including accessibility, API reliability, security validation, and AI system behavior.
+Previously validated AI platform behavior at Samsung Electronics (Galaxy AI, Bixby, SmartThings). My background in Business Law adds a risk-based lens to compliance testing, data privacy validation, and regulatory alignment (GDPR, EU AI Act).
 
 ---
 
@@ -102,7 +100,7 @@ The technical reference specification for institutional quality engineering mode
 
 - **Stack:** ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown&logoColor=white) ![Wiki](https://img.shields.io/badge/-Wiki-333333?style=flat-square)
 - **Architecture:** Modular repository structure consisting of 12 technical reference domains and a centralized catalog of executable engineering artifacts.
-- **Technical Scope:** Defines processes, Test Architecture, business KPIs, Mobile Strategy, Data Governance, and Risk Management across the SDLC.
+- **Technical Scope:** 12-chapter engineering reference covering RAG/LLM system evaluation (Faithfulness, Answer Relevance, OWASP LLM Top 10), risk-based test strategy, quantitative QA metrics with formal thresholds (DRE, Defect Leakage Rate, CFR), and a Release Advisory Framework (GO / NO-GO criteria). All standards expressed in RFC 2119 normative language with reusable parameterized templates.
 - **Controlled Governance:** Enforces rigorous RFC specification language, invariant parameterized templates, and shift-left CI/CD alignment for quality scaling.
 
 🔗 **Repository:** [View Project](https://github.com/brunofulia/QA_Handbook/blob/main/README.md)
@@ -112,74 +110,6 @@ The technical reference specification for institutional quality engineering mode
 ## 🧠 AI-Augmented Workflows & Knowledge Systems
 
 My approach to knowledge management and workflow augmentation focuses on structuring context deterministically so that AI models operate within rigid, predictable environments.
-
-```mermaid
-graph TD
-
-    %% =================================================
-    %% DETERMINISTIC GOVERNANCE LAYER
-    %% =================================================
-    subgraph DG["DETERMINISTIC GOVERNANCE LAYER"]
-
-        A[👤 User / IDE / AI Assistant]
-        B[AGENTS.md<br/>Universal Entry Point]
-
-        A --> B
-        B --> C[Session Initialization Ritual]
-        C --> D[Context Ingestion & Triage]
-
-        subgraph GE["Governance Engine"]
-            D --> E[Hierarchy • Policies<br/>Rules • Rituals]
-            E --> F{Consistency Validation}
-
-            F -->|Invalid State| G[Controlled KO State<br/>Execution Blocked]
-            F -->|Valid State| H[Context Assembly Engine]
-        end
-
-        subgraph MEM["Tiered Memory Architecture"]
-            M1[Active Memory<br/>Current State]
-            M2[Working Memory<br/>Session Context]
-            M3[Reference Memory<br/>Knowledge Archive]
-
-            M1 --> H
-            M2 --> H
-            M3 -.->|On Demand| H
-        end
-
-    end
-
-    %% =================================================
-    %% PROBABILISTIC AI LAYER
-    %% =================================================
-    subgraph AI_LAYER["PROBABILISTIC AI LAYER"]
-        H --> I[LLM Runtime<br/>Reasoning & Generation]
-    end
-
-    %% =================================================
-    %% DETERMINISTIC CONTINUITY LAYER
-    %% =================================================
-    subgraph CL["DETERMINISTIC CONTINUITY LAYER"]
-
-        I --> J[Governed Output]
-        J --> K[Closure Ritual]
-        K --> L[Memory Consolidation Engine]
-
-        L --> M[Update Active Memory]
-        L --> N[Persist Decisions & Lessons Learned]
-        L --> O[Clean Working Memory]
-
-    end
-
-    %% =================================================
-    %% STYLING
-    %% =================================================
-    style G fill:#f9cccc,stroke:#900,stroke-width:2px
-    style H fill:#ccccff,stroke:#333,stroke-width:2px
-    style I fill:#d9ead3,stroke:#333,stroke-width:2px
-    style DG fill:#f8f9fa,stroke:#ccc,stroke-dasharray: 5 5
-    style AI_LAYER fill:#f3f4f6,stroke:#ccc,stroke-dasharray: 5 5
-    style CL fill:#f8f9fa,stroke:#ccc,stroke-dasharray: 5 5
-```
 
 ### ⚙️ AI - Auto Ignite · Plug & Work AI Context Kit
 
@@ -198,5 +128,3 @@ A portable governance, memory, and hierarchical consistency system for projects 
 
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
 - LinkedIn: https://www.linkedin.com/in/bruno-fulia/
-
-
