@@ -1,6 +1,6 @@
 # Bruno Fulia - QA Engineer
 
-## ISTQB Certified | Web · Mobile · API · AI Platform Validation
+## ISTQB Certified | Web · Mobile · API · AI Quality Engineering
 
 QA Engineer focused on validating complex software ecosystems across Web, Mobile, APIs, and AI-powered platforms. I design automation frameworks and quality gates that don't just verify expected behavior — they actively detect, capture, and escalate critical deviations before they reach production.
 
