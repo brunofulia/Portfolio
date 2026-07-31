@@ -1,3 +1,10 @@
+---
+title: "README"
+description: ""
+type: ""
+updated: "2026-07-27T14:59:05"
+---
+
 # Bruno Fulia - QA Engineer
 
 ## ISTQB Certified | Web · Mobile · API · AI Platform Validation
@@ -14,11 +21,13 @@ My focus is building practical QA solutions that connect engineering practices w
 
 - [Technical Ecosystem](#️-technical-ecosystem)
 - [Quality & Validation Frameworks](#-quality--validation-frameworks)
-  - [1. Web Compliance & Accessibility QA Framework](#-1-web-compliance--accessibility-qa-framework)
-  - [2. API & Data Privacy Contract Testing Framework](#-2-api--data-privacy-contract-testing-framework)
-  - [3. LLM Quality & Security Framework](#-3-llm-quality--security-framework)
+  - [Web Compliance & Accessibility QA Framework](#-web-compliance--accessibility-qa-framework)
+  - [API & Data Privacy Contract Testing Framework](#-api--data-privacy-contract-testing-framework)
+  - [LLM Quality & Security Framework](#-llm-quality--security-framework)
+- [Quality Governance & Engineering Standards](#️-quality-governance--engineering-standards)
+  - [QA Engineering Handbook](#-qa-engineering-handbook)
 - [AI-Augmented Workflows & Knowledge Systems](#-ai-augmented-workflows--knowledge-systems)
-  - [4. AI - Auto Ignite · Plug & Work AI Context Kit](#️-4-ai---auto-ignite--plug--work-ai-context-kit)
+  - [AI - Auto Ignite · Plug & Work AI Context Kit](#️-ai---auto-ignite--plug--work-ai-context-kit)
 - [Professional Connection](#-professional-connection)
 
 ---
@@ -51,7 +60,7 @@ graph LR
     D -->|Logs / Traces / Screenshots| E[Blocked Release]
 ```
 
-### 📄 1. Web Compliance & Accessibility QA Framework
+### 📄 Web Compliance & Accessibility QA Framework
 
 Automated regression framework focused on validating user interfaces, accessibility requirements, and browser-level behaviors.
 
@@ -64,7 +73,7 @@ Automated regression framework focused on validating user interfaces, accessibil
 
 ---
 
-### 📦 2. API & Data Privacy Contract Testing Framework
+### 📦 API & Data Privacy Contract Testing Framework
 
 Backend validation framework focused on API contracts, data exposure prevention, and authorization rules to enforce GDPR compliance and RBAC verification.
 
@@ -77,7 +86,7 @@ Backend validation framework focused on API contracts, data exposure prevention,
 
 ---
 
-### 🤖 3. LLM Quality & Security Framework
+### 🤖 LLM Quality & Security Framework
 
 Enterprise-grade validation framework focused on evaluating AI behavior, prompt robustness, safety boundaries, and compliance with the EU AI Act & OWASP Top 10 for LLMs.
 
@@ -87,6 +96,23 @@ Enterprise-grade validation framework focused on evaluating AI behavior, prompt 
 - **Controlled Failure Validation:** Enforces strict KO states (security leaks, invalid schema, hallucinations) that break the build if CI/CD fails to block threats.
 
 🔗 **Repository:** [View Project](https://github.com/brunofulia/LLM_Quality_And_Security_Framework#readme)
+
+---
+
+## 🏛️ Quality Governance & Engineering Standards
+
+My portfolio extends beyond technical automation into the strategic governance that makes quality scalable across the software lifecycle.
+
+### 📚 QA Engineering Handbook
+
+The technical reference specification for institutional quality engineering models, designed to serve as a reusable operational and governance framework.
+
+- **Stack:** ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown&logoColor=white) ![Wiki](https://img.shields.io/badge/-Wiki-333333?style=flat-square)
+- **Architecture:** Modular repository structure consisting of 12 technical reference domains and a centralized catalog of executable engineering artifacts.
+- **Technical Scope:** Defines processes, Test Architecture, business KPIs, Mobile Strategy, Data Governance, and Risk Management across the SDLC.
+- **Controlled Governance:** Enforces rigorous RFC specification language, invariant parameterized templates, and shift-left CI/CD alignment for quality scaling.
+
+🔗 **Repository:** [View Project](https://github.com/brunofulia/QA_Handbook/blob/main/README.md)
 
 ---
 
@@ -162,7 +188,7 @@ graph TD
     style CL fill:#f8f9fa,stroke:#ccc,stroke-dasharray: 5 5
 ```
 
-### ⚙️ 4. AI - Auto Ignite · Plug & Work AI Context Kit
+### ⚙️ AI - Auto Ignite · Plug & Work AI Context Kit
 
 A portable governance, memory, and hierarchical consistency system for projects assisted by Artificial Intelligence (LLMs).
 
@@ -179,4 +205,5 @@ A portable governance, memory, and hierarchical consistency system for projects 
 
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
 - LinkedIn: https://www.linkedin.com/in/bruno-fulia/
+
 
