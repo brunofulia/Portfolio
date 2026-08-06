@@ -1,6 +1,6 @@
 # Bruno Fulia - QA Engineer
 
-## ISTQB Certified | Web · Mobile · API · AI Quality Engineering
+## ISTQB Certified | Web · Mobile · API · AI Platform Validation
 
 QA Engineer focused on validating complex software ecosystems across Web, Mobile, APIs, and AI-powered platforms. I design automation frameworks and quality gates that don't just verify expected behavior — they actively detect, capture, and escalate critical deviations before they reach production.
 
@@ -15,6 +15,7 @@ Previously validated AI platform behavior at Samsung Electronics (Galaxy AI, Bix
   - [Web Compliance & Accessibility QA Framework](#-web-compliance--accessibility-qa-framework)
   - [API & Data Privacy Contract Testing Framework](#-api--data-privacy-contract-testing-framework)
   - [LLM Quality & Security Framework](#-llm-quality--security-framework)
+  - [BDD Cucumber.js Showcase](#-bdd-cucumberjs-showcase)
 - [Quality Governance & Engineering Standards](#️-quality-governance--engineering-standards)
   - [QA Engineering Handbook](#-qa-engineering-handbook)
 - [AI-Augmented Workflows & Knowledge Systems](#-ai-augmented-workflows--knowledge-systems)
@@ -87,6 +88,19 @@ Enterprise-grade validation framework focused on evaluating AI behavior, prompt 
 - **Controlled Failure Validation:** Enforces strict KO states (security leaks, invalid schema, hallucinations) that break the build if CI/CD fails to block threats.
 
 🔗 **Repository:** [View Project](https://github.com/brunofulia/LLM_Quality_And_Security_Framework#readme)
+
+---
+
+### 🥒 BDD Cucumber.js Showcase
+
+Executable specification framework connecting functional business criteria in Gherkin with modern automated validations, demonstrating BDD best practices over REST APIs.
+
+* **Tech Stack:** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Cucumber.js](https://img.shields.io/badge/-Cucumber.js-23D96C?style=flat-square&logo=cucumber&logoColor=white) ![Playwright Expect](https://img.shields.io/badge/-Playwright_Expect-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Node.js Native Fetch](https://img.shields.io/badge/-Node.js_Fetch-339933?style=flat-square&logo=node.js&logoColor=white)
+* **Architecture:** Clear layer separation between Specification (Gherkin Features), Automation Steps (Cucumber.js), and HTTP Transport Layer using native Node.js 18+ `fetch` alongside `@playwright/test` `expect` assertions.
+* **Technical Scope:** Behavior-Driven Development (BDD), Data-Driven Testing via Scenario Outlines, HTTP client-less API validation, lifecycle hooks diagnostic logging, and native HTML execution reporting.
+* **Controlled Failure & Boundary Verification:** Features dedicated failure scenarios (e.g., HTTP 404 non-existent user retrieval) to prove pipeline resilience, KO diagnostic logging, and rich report generation upon assertion failure.
+
+🔗 **Repository:** [View Project](https://github.com/brunofulia/BDD_Cucumber_Showcase#readme)
 
 ---
 
