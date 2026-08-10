@@ -16,6 +16,7 @@ Previously validated AI platform behavior at Samsung Electronics (Galaxy AI, Bix
   - [API & Data Privacy Contract Testing Framework](#-api--data-privacy-contract-testing-framework)
   - [LLM Quality & Security Framework](#-llm-quality--security-framework)
   - [BDD Cucumber.js Showcase](#-bdd-cucumberjs-showcase)
+  - [REST API Testing Showcase (Bruno + Postman + Newman)](#-rest-api-testing-showcase-bruno--postman--newman)
 - [Quality Governance & Engineering Standards](#️-quality-governance--engineering-standards)
   - [QA Engineering Handbook](#-qa-engineering-handbook)
 - [AI-Augmented Workflows & Knowledge Systems](#-ai-augmented-workflows--knowledge-systems)
@@ -104,6 +105,19 @@ Executable specification framework connecting functional business criteria in Gh
 
 ---
 
+### 🚀 REST API Testing Showcase (Bruno + Postman + Newman)
+
+QA Automation portfolio project demonstrating equivalent REST API validation implemented with **Bruno** and **Postman/Newman**, using the same API scenarios, environment configuration, assertions, and automated CLI execution.
+
+- **Stack:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Bruno](https://img.shields.io/badge/-Bruno_CLI-FF6C37?style=flat-square) ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Newman](https://img.shields.io/badge/-Newman-000000?style=flat-square&logo=postman&logoColor=white)
+- **Architecture:** Layered architecture separating environment configuration, collection definitions, execution engines, target API, and test results.
+- **Technical Scope:** HTTP status validation, response data integrity, JSON response structure validation, environment-driven configuration, and CLI-based test execution.
+- **Dual-Tool Validation:** The same REST API behavior is validated through two independent testing ecosystems, enabling a direct comparison of their collection formats and execution workflows.
+
+🔗 **Repository:** [View Project](https://github.com/brunofulia/REST_API_Showcase_Bruno_Postman#readme)
+
+---
+
 ## 🏛️ Quality Governance & Engineering Standards
 
 My portfolio extends beyond technical automation into the strategic governance that makes quality scalable across the software lifecycle.
@@ -142,3 +156,4 @@ A portable governance, memory, and hierarchical consistency system for projects 
 
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
 - LinkedIn: https://www.linkedin.com/in/bruno-fulia/
+
