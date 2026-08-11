@@ -15,6 +15,7 @@ Previously validated AI platform behavior at Samsung Electronics across Galaxy A
   - [Web Compliance & Accessibility QA Framework](#-web-compliance--accessibility-qa-framework)
   - [REST API Testing Showcase (Bruno + Postman + Newman)](#-rest-api-testing-showcase-bruno--postman--newman)
   - [API Security & Data Privacy QA Framework](#-api-security--data-privacy-qa-framework)
+  - [Role-Based Access Control (RBAC) Security Gate](https://github.com/brunofulia/Portfolio#-role-based-access-control-rbac-security-gate)
   - [BDD Cucumber.js Showcase](#-bdd-cucumberjs-showcase)
   - [LLM Quality & Security Validation Framework](#-llm-quality--security-validation-framework)
 - [Quality Governance & Engineering Standards](#️-quality-governance--engineering-standards)
@@ -82,7 +83,7 @@ QA Automation portfolio project demonstrating equivalent REST API validation imp
 
 ### 📦 API Security & Data Privacy QA Framework
 
-QA Automation portfolio project demonstrating API-level privacy and authorization validation with **Playwright and TypeScript**, including PII exposure detection, access-control assertions, environment-driven configuration, and controlled security failure scenarios designed to verify CI/CD quality gates.
+QA Automation portfolio project demonstrating API-level privacy, authorization, and data contract validation with **Playwright and TypeScript**, including PII exposure detection, data-boundary assertions, environment-driven configuration, and controlled security failure scenarios designed to verify CI/CD quality gates.
 
 - **Stack:** ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Playwright API](https://img.shields.io/badge/-Playwright_API-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![dotenv](https://img.shields.io/badge/-dotenv-ECD53F?style=flat-square)
 - **Architecture:** API Client pattern with custom Playwright fixtures, dedicated validation utilities, environment profiles, and automated execution reporting.
@@ -90,6 +91,19 @@ QA Automation portfolio project demonstrating API-level privacy and authorizatio
 - **Security Validation:** Simulated regression mode intentionally inverts the expected authorization assertion to demonstrate how an access-control regression would fail the automated quality gate.
 
 🔗 **Repository:** [View Project](https://github.com/brunofulia/API_Data_Privacy_Contract_Testing#readme)
+
+---
+
+### 🛡️ Role-Based Access Control (RBAC) Security Gate
+
+Policy-driven security regression framework validating **RBAC authorization and restricted data exposure across API and UI layers** using Robot Framework, Playwright, and RequestsLibrary.
+
+- **Stack:** ![Robot Framework](https://img.shields.io/badge/-Robot_Framework-000000?style=flat-square) ![robotframework-datadriver](https://img.shields.io/badge/-robotframework--datadriver-000000?style=flat-square) ![Browser Library (Playwright)](https://img.shields.io/badge/-Browser_Library_(Playwright)-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![RequestsLibrary](https://img.shields.io/badge/-RequestsLibrary-000000?style=flat-square) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+- **Architecture:** Policy-as-Data authorization matrix, Discovery-First test contract, separated authentication/authorization layers, and shared data-exposure assertions across API and UI.
+- **Technical Scope:** Role/resource/action authorization validation, `401/403/200` authorization response validation, sensitive-field exposure checks, DOM-level access control validation, and business-level authorization policies decoupled from technical endpoints.
+- **Security Gate:** Includes a deterministic mock environment and a controlled authorization regression that intentionally exposes restricted data, demonstrating how a CI/CD quality gate detects the violation and blocks subsequent deployment stages.
+
+🔗 **Repository:** [View Project](https://github.com/brunofulia/Role_Based_Access_Control#readme)
 
 ---
 
@@ -157,5 +171,4 @@ A portable governance, memory, and hierarchical consistency system for projects 
 
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
 - LinkedIn: https://www.linkedin.com/in/bruno-fulia/
-
 
