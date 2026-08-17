@@ -20,6 +20,8 @@ Previously validated AI platform behavior at Samsung Electronics across Galaxy A
   - [LLM Quality & Security Validation Framework](#-llm-quality--security-validation-framework)
 - [Quality Governance & Engineering Standards](#️-quality-governance--engineering-standards)
   - [QA Engineering Handbook](#-qa-engineering-handbook)
+- [QA Tooling](#️-qa-tooling)
+  - [LLM Quality Evaluator](#-llm-quality-evaluator)
 - [AI-Augmented Workflows & Knowledge Systems](#-ai-augmented-workflows--knowledge-systems)
   - [AI - Auto Ignite · Plug & Work AI Context Kit](#️-ai---auto-ignite--plug--work-ai-context-kit)
 - [Professional Connection](#-professional-connection)
@@ -150,6 +152,23 @@ A structured QA engineering reference designed to document reusable quality mode
 
 ---
 
+## 🛠️ QA Tooling
+
+Desktop applications and CLI tools designed to make structured quality practices accessible to non-technical teams — bridging the gap between engineering-grade frameworks and the day-to-day workflows of QA testers, Product Owners, and Compliance Auditors.
+
+### 🤖 LLM Quality Evaluator
+
+No-Code desktop workbench that puts LLM quality assessment in the hands of non-technical teams by wrapping [DeepEval](https://github.com/confident-ai/deepeval) behind a graphical interface, eliminating the need to write Python scripts or configure evaluation frameworks manually.
+
+- **Stack:** ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![DeepEval](https://img.shields.io/badge/-DeepEval-7B2D8B?style=flat-square) ![CustomTkinter](https://img.shields.io/badge/-CustomTkinter-1F6AA5?style=flat-square) ![Rich](https://img.shields.io/badge/-Rich-000000?style=flat-square)
+- **Architecture:** Clean Architecture with strict decoupling between evaluation engine and UI layer; engine is 100% reusable as a standalone Python library independent from the UI.
+- **Technical Scope:** Manual sandbox for interactive prompt/response testing, batch audit mode for full dataset evaluations, YAML evaluation policies, GEval Designer for custom natural-language metrics, multi-provider support (OpenAI, Anthropic, Google, Groq), and automatic Excel/HTML report generation.
+- **No-Code Accessibility:** Designed for QA functional testers, Product Owners, and Compliance Auditors — full point-and-click GUI workflow with a CLI/TUI mode available for power users and CI pipelines.
+
+🔗 **Repository:** [View Project](https://github.com/brunofulia/LLM_Quality_Evaluator#readme)
+
+---
+
 ## 🧠 AI-Augmented Workflows & Knowledge Systems
 
 My approach to knowledge management and workflow augmentation focuses on structuring context deterministically so that AI models operate within rigid, predictable environments.
@@ -171,4 +190,5 @@ A portable governance, memory, and hierarchical consistency system for projects 
 
 - Email: [brunofulia@gmail.com](mailto:brunofulia@gmail.com)
 - LinkedIn: https://www.linkedin.com/in/bruno-fulia/
+
 
